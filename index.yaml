@@ -1,0 +1,135 @@
+apiVersion: v1
+entries:
+  influxdb:
+  - created: 2019-05-13T15:46:48.92348242+05:30
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 0f9e5a4b07648d85ec516a90ed992029a09fb0d6f573001329bb271cb168a124
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/influxdb/
+    keywords:
+    - influxdb
+    - database
+    - timeseries
+    maintainers:
+    - email: jack@influxdb.com
+      name: Jack Zampolin
+    name: influxdb
+    sources:
+    - https://github.com/influxdata/influxdb
+    urls:
+    - influxdb-0.6.2.tgz
+    version: 0.6.2
+  kafka:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.924056492+05:30
+    description: A Helm chart for Kafka
+    digest: edb271cf7928274122330bf245947b5487297913e25168b0db0e02c47a7c18e1
+    name: kafka
+    urls:
+    - kafka-0.4.3.tgz
+    version: 0.4.3
+  keystone-init:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.924599201+05:30
+    description: Chart to initialize users in Keystone
+    digest: 0497199707f4efb5e6ecdf67526faf99daceac160a030548e4167b16271f5a31
+    name: keystone-init
+    urls:
+    - keystone-init-0.4.0.tgz
+    version: 0.4.0
+  monasca:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.928679836+05:30
+    description: A Helm chart for Monasca running in Kubernetes
+    digest: b556e553f9531a7f608adeda96917c3563a6a0e0e318fb490e46dd6413761179
+    maintainers:
+    - email: timothy.jas.buckley@hpe.com
+      name: Tim Buckley
+    name: monasca
+    sources:
+    - https://wiki.openstack.org/wiki/Monasca
+    urls:
+    - monasca-0.6.4.tgz
+    version: 0.6.4
+  monasca-agent:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.929072228+05:30
+    description: A Helm chart for Monasca-agent
+    digest: 56073b3806d9a7124956465c4d09edf6847465c05c8fc81bb0e9f68af658910d
+    maintainers:
+    - email: timothy.jas.buckley@hpe.com
+      name: Tim Buckley
+    name: monasca-agent
+    sources:
+    - https://github.com/openstack/monasca-agent
+    urls:
+    - monasca-agent-0.2.3.tgz
+    version: 0.2.3
+  monasca-alarms:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.92939476+05:30
+    description: A Helm chart for adding Alarms for Monasca
+    digest: dc5fdae1af1d48f82acf1f6336b7f403a22b221413c99148ff0c52468cdda3d8
+    maintainers:
+    - email: michael.jam.hoppal@hpe.com
+      name: Michael Hoppal
+    name: monasca-alarms
+    sources:
+    - https://wiki.openstack.org/wiki/Monasca
+    urls:
+    - monasca-alarms-0.0.1.tgz
+    version: 0.0.1
+  mysql-users-init:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.929796688+05:30
+    description: Chart to initialize users and databases in MySQL
+    digest: 60dfcf3705ba28374084a2ead2f4c29689a01a64c9f7195abb3737fdeff32d72
+    name: mysql-users-init
+    urls:
+    - mysql-users-init-0.2.1.tgz
+    version: 0.2.1
+  spark:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.930220377+05:30
+    description: Spark cluster chart
+    digest: 2e003cc434738618fb6e3d97ed78bbd5beb5456d135ba8f33df78ca4cc42ff02
+    maintainers:
+    - email: david.c.kennedy@hpe.com
+      name: David C Kennedy
+    name: spark
+    urls:
+    - spark-0.2.3.tgz
+    version: 0.2.3
+  storm:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.933569815+05:30
+    description: Apache Storm configured for Monasca
+    digest: 15df671fbacae0c120137be06c32880ec4b7bb40590e98558b5cbd22c63b6e7b
+    name: storm
+    urls:
+    - storm-0.5.3.tgz
+    version: 0.5.3
+  transform:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.935869869+05:30
+    description: Transform provides aggregation for monasca metrics
+    digest: 0b520e404ee899b62296e61a33b16ebe46c06d9bd885ee43efe023c1d6c07020
+    maintainers:
+    - email: david.c.kennedy@hpe.com
+      name: David C Kennedy
+    name: transform
+    sources:
+    - https://github.com/openstack/monasca-transform
+    urls:
+    - transform-0.2.0.tgz
+    version: 0.2.0
+  zookeeper:
+  - apiVersion: v1
+    created: 2019-05-13T15:46:48.936283882+05:30
+    description: A Helm chart for Zookeeper
+    digest: b057681f5eb8056ccba5ccae74811224bff145444227c2454b89025b2d946a32
+    name: zookeeper
+    urls:
+    - zookeeper-0.3.8.tgz
+    version: 0.3.8
+generated: 2019-05-13T15:46:48.922433181+05:30
