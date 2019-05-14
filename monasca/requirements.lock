@@ -1,0 +1,12 @@
+dependencies:
+- name: influxdb
+  repository: https://raw.githubusercontent.com/mohamedji/monasca/master/
+  version: 0.6.2
+- name: mysql
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 0.2.4
+- name: storm
+  repository: https://raw.githubusercontent.com/mohamedji/monasca/master/
+  version: 0.5.3
+digest: sha256:faebda069114add9b20aaa827590f85319cfc7a2841f2bb1bfa00347655fe83d
+generated: 2019-05-14T09:52:03.800581487+05:30

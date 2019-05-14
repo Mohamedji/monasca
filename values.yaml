@@ -1621,7 +1621,6 @@ smoke_tests:
     domain_name: Default
 
 alarm_definition_controller:
-  name: adc
   controller_enabled: false
   resource_enabled: false
   image:
